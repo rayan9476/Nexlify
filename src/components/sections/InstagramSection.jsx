@@ -4,7 +4,7 @@ import { FaInstagram, FaPlay, FaArrowRight } from "react-icons/fa";
 import { Eye } from "lucide-react";
 import { useCountUp } from "../hooks/useCountUp";
 import { lazy, Suspense } from "react";
-const ReelModal = lazy(() => import("../ui/ReelModal"));
+import ReelModal from "../ui/ReelModal";
 
 const profile = {
   username: "@nexlify",
@@ -281,13 +281,11 @@ export default function InstagramSection({ id }) {
 
       <AnimatePresence mode="wait">
         {selectedReel && (
-          <Suspense fallback={null}>
-            <ReelModal
-              key={selectedReel.id}
-              reel={selectedReel}
-              onClose={() => setSelectedReel(null)}
-            />
-          </Suspense>
+          <ReelModal
+            key={selectedReel.id}
+            reel={selectedReel}
+            onClose={() => setSelectedReel(null)}
+          />
         )}
       </AnimatePresence>
     </>

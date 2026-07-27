@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { useScrollTo } from "../hooks/useScrollTo";
 import { lazy, Suspense } from "react";
-const ServiceModal = lazy(() => import("../ui/ServiceModal"));
+import ServiceModal from "../ui/ServiceModal";
 import { useState } from "react";
 import {
   Palette,
@@ -231,14 +231,12 @@ export default function ServicesSection({ id }) {
 
       <AnimatePresence mode="wait">
         {selectedService && (
-          <Suspense fallback={null}>
-            <ServiceModal
-              key={selectedService.id}
-              service={selectedService}
-              onClose={() => setSelectedService(null)}
-              onContact={() => scrollTo("#contact")}
-            />
-          </Suspense>
+          <ServiceModal
+            key={selectedService.id}
+            service={selectedService}
+            onClose={() => setSelectedService(null)}
+            onContact={() => scrollTo("#contact")}
+          />
         )}
       </AnimatePresence>
     </>

@@ -2,8 +2,8 @@ import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { lazy, Suspense } from "react";
-const ProjectModal = lazy(() => import("../ui/ProjectModal"));
 
+import ProjectModal from "../ui/ProjectModal";
 import { AnimatePresence } from "framer-motion";
 import { LayoutGroup } from "framer-motion";
 import { div } from "framer-motion/client";
@@ -162,12 +162,10 @@ export default function OurWorksSection({ id }) {
 
         <AnimatePresence mode="wait">
           {selectedProject && (
-            <Suspense fallback={null}>
-              <ProjectModal
-                project={selectedProject}
-                onClose={() => setSelectedProject(null)}
-              />
-            </Suspense>
+            <ProjectModal
+              project={selectedProject}
+              onClose={() => setSelectedProject(null)}
+            />
           )}
         </AnimatePresence>
       </LayoutGroup>
