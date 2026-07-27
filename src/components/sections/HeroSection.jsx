@@ -1,9 +1,9 @@
 import { motion, useAnimation } from "framer-motion";
 import { Palette, Rocket, Star } from "lucide-react";
-import { useScrollTo } from "./hooks/useScrollTo";
-import { useCountUp } from "./hooks/useCountUp";
-import { useLoader } from "./context/LoaderContext";
-import { useRouteChangeStairs } from "./context/RouteChangeStairsContext";
+import { useScrollTo } from "../hooks/useScrollTo";
+import { useCountUp } from "../hooks/useCountUp";
+import { useLoader } from "../context/LoaderContext";
+import { useRouteChangeStairs } from "../context/RouteChangeStairsContext";
 import { useEffect } from "react";
 const slide = {
   title: "We Build Digital",

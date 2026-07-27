@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { useCustomCursor } from "./hooks/useCustomCursor";
+import { useCustomCursor } from "../hooks/useCustomCursor";
 
 export default function CustomCursor() {
   const dotRef = useRef(null);

@@ -2,9 +2,9 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaInstagram, FaPlay, FaArrowRight } from "react-icons/fa";
 import { Eye } from "lucide-react";
-import { useCountUp } from "./hooks/useCountUp";
+import { useCountUp } from "../hooks/useCountUp";
 import { lazy, Suspense } from "react";
-const ReelModal = lazy(() => import("./ReelModal"));
+const ReelModal = lazy(() => import("../ui/ReelModal"));
 
 const profile = {
   username: "@nexlify",

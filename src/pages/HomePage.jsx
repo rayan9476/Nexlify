@@ -1,15 +1,23 @@
-import HeroSection from "../components/HeroSection";
+import HeroSection from "../components/sections/HeroSection";
 import { lazy, Suspense } from "react";
-const ServicesSection = lazy(() => import("../components/ServicesSection"));
-const OurWorksSection = lazy(() => import("../components/OurWorksSection"));
-const TestimonialsSection = lazy(
-  () => import("../components/TestimonialsSection"),
+const ServicesSection = lazy(
+  () => import("../components/sections/ServicesSection"),
 );
-const InstagramSection = lazy(() => import("../components/InstagramSection"));
-const CTASection = lazy(() => import("../components/CTASection"));
-const ContactSection = lazy(() => import("../components/ContactSection"));
-const Footer = lazy(() => import("../components/common/Footer"));
-import Navbar from "../components/common/Navbar";
+const OurWorksSection = lazy(
+  () => import("../components/sections/OurWorksSection"),
+);
+const TestimonialsSection = lazy(
+  () => import("../components/sections/TestimonialsSection"),
+);
+const InstagramSection = lazy(
+  () => import("../components/sections/InstagramSection"),
+);
+const CTASection = lazy(() => import("../components/sections/CTASection"));
+const ContactSection = lazy(
+  () => import("../components/sections/ContactSection"),
+);
+const Footer = lazy(() => import("../components/layout/Footer"));
+import Navbar from "../components/layout/Navbar";
 
 function HomePage() {
   return (

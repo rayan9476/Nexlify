@@ -1,6 +1,5 @@
 import "./App.css";
 import { lazy, Suspense } from "react";
-import Navbar from "./components/common/Navbar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy.jsx"));
 const TermsOfService = lazy(() => import("./pages/TermsOfService.jsx"));

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
-import { useScrollTo } from "./hooks/useScrollTo";
+import { useScrollTo } from "../hooks/useScrollTo";
 
 export default function CTASection({ id }) {
   const scrollTo = useScrollTo();

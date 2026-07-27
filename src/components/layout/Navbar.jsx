@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import logo from "../../assets/nexlify-logo-transparent-bg.png";
 import { useScrollTo } from "../hooks/useScrollTo";
-import NavbarMenu from "../NavbarMenu";
+import NavbarMenu from "../ui/NavbarMenu";
 
 const navLinks = [
   { label: "Home", target: "#home" },

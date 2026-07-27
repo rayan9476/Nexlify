@@ -45,66 +45,79 @@ src/assets/projects/nexlify/
 
 ## Project Structure
 
+```
 nexlify-landing/
 ├── public/
-│ ├── favicon.ico
-│ ├── favicon.svg
-│ ├── favicon-16x16.png
-│ ├── favicon-32x32.png
-│ ├── favicon-48x48.png
-│ ├── apple-touch-icon.png
-│ ├── android-chrome-192x192.png
-│ ├── android-chrome-512x512.png
-│ ├── icon-256x256.png
-│ ├── icons.svg
-│ ├── nexlify-favicon-32x32.png
-│ ├── nexlify-small-logo.png
-│ ├── robots.txt
-│ ├── sitemap.xml
-│ └── site.webmanifest
+│   ├── favicon.ico
+│   ├── favicon.svg
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon-48x48.png
+│   ├── apple-touch-icon.png
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── icon-256x256.png
+│   ├── icons.svg
+│   ├── nexlify-favicon-32x32.png
+│   ├── nexlify-small-logo.png
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   └── site.webmanifest
 ├── src/
-│ ├── assets/
-│ │ ├── fonts/
-│ │ │ └── InterVariable.woff2
-│ │ ├── nexlify-transparent-cropped.png
-│ │ ├── hero.png
-│ │ └── nexlify-logo-transparent-bg.png
-│ ├── components/
-│ │ ├── common/
-│ │ │ ├── Navbar.jsx
-│ │ │ ├── Footer.jsx
-│ │ │ ├── GlobalUI.jsx
-│ │ │ └── PageLoader.jsx
-│ │ ├── context/
-│ │ │ ├── LoaderContext.jsx
-│ │ │ └── RouteChangeStairsContext.jsx
-│ │ ├── hooks/
-│ │ │ ├── useFakeScrollbar.js
-│ │ │ ├── useScrollTo.js
-│ │ │ ├── useCountUp.js
-│ │ │ ├── useCustomCursor.js
-│ │ │ └── useRouteChangeStairsAnimation.js
-│ │ ├── HeroSection.jsx
-│ │ ├── NavbarMenu.jsx
-│ │ ├── ServicesSection.jsx
-│ │ ├── ServiceModal.jsx
-│ │ ├── OurWorks.jsx
-│ │ ├── ProjectModal.jsx
-│ │ ├── TestimonialsSection.jsx
-│ │ ├── InstagramSection.jsx
-│ │ ├── ReelModal.jsx
-│ │ ├── ContactSection.jsx
-│ │ ├── CTASection.jsx
-│ │ ├── LenisProvider.jsx
-│ │ ├── CustomCursor.jsx
-│ │ └── RouteChangeStairs.jsx
-│ ├── pages/
-│ │ ├── HomePage.jsx
-│ │ ├── PrivacyPolicy.jsx
-│ │ └── TermsOfService.jsx
-│ ├── App.jsx
-│ ├── App.css
-│ └── main.jsx
+│   ├── assets/
+│   │   ├── fonts/
+│   │   │   └── InterVariable.woff2
+│   │   ├── projects/
+│   │   │   └── nexlify/
+│   │   │       ├── ContactSection.png
+│   │   │       ├── CTASection.png
+│   │   │       ├── HeroSection.png
+│   │   │       ├── InstagramSection.png
+│   │   │       ├── InstagramSectionMobile.png
+│   │   │       ├── OurWorksSection.png
+│   │   │       ├── ServicesSection.png
+│   │   │       ├── ServicesSectionMobile.png
+│   │   │       └── TestimonialsSection.png
+│   │   └── nexlify-logo-transparent-bg.png
+│   ├── components/
+│   │   ├── context/
+│   │   │   ├── LoaderContext.jsx
+│   │   │   └── RouteChangeStairsContext.jsx
+│   │   ├── hooks/
+│   │   │   ├── useCountUp.js
+│   │   │   ├── useCustomCursor.js
+│   │   │   ├── useFakeScrollbar.js
+│   │   │   └── useScrollTo.js
+│   │   ├── layout/
+│   │   │   ├── Footer.jsx
+│   │   │   ├── GlobalUI.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── loader/
+│   │   │   └── PageLoader.jsx
+│   │   ├── providers/
+│   │   │   └── LenisProvider.jsx
+│   │   ├── sections/
+│   │   │   ├── ContactSection.jsx
+│   │   │   ├── CTASection.jsx
+│   │   │   ├── HeroSection.jsx
+│   │   │   ├── InstagramSection.jsx
+│   │   │   ├── OurWorksSection.jsx
+│   │   │   ├── ServicesSection.jsx
+│   │   │   └── TestimonialsSection.jsx
+│   │   └── ui/
+│   │       ├── CustomCursor.jsx
+│   │       ├── NavbarMenu.jsx
+│   │       ├── ProjectModal.jsx
+│   │       ├── ReelModal.jsx
+│   │       ├── RouteChangeStairs.jsx
+│   │       └── ServiceModal.jsx
+│   ├── pages/
+│   │   ├── HomePage.jsx
+│   │   ├── PrivacyPolicy.jsx
+│   │   └── TermsOfService.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
 ├── .gitignore
 ├── index.html
 ├── package.json
@@ -113,6 +126,7 @@ nexlify-landing/
 ├── vite.config.js
 ├── vercel.json
 └── README.md
+```
 
 ---
 

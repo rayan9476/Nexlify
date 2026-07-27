@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useFakeScrollbar } from "../hooks/useFakeScrollbar";
-import CustomCursor from "../CustomCursor";
-import PageLoader from "./PageLoader";
+import CustomCursor from "../ui/CustomCursor";
+import PageLoader from "../loader/PageLoader";
 import { LoaderContext } from "../context/LoaderContext";
 import { useLocation } from "react-router-dom";
 import { RouteChangeStairsContext } from "../context/RouteChangeStairsContext";

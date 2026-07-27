@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { lazy, Suspense } from "react";
-const ProjectModal = lazy(() => import("./ProjectModal"));
+const ProjectModal = lazy(() => import("../ui/ProjectModal"));
 
 import { AnimatePresence } from "framer-motion";
 import { LayoutGroup } from "framer-motion";

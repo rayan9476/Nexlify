@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "framer-motion";
-import { useScrollTo } from "./hooks/useScrollTo";
+import { useScrollTo } from "../hooks/useScrollTo";
 import { lazy, Suspense } from "react";
-const ServiceModal = lazy(() => import("./ServiceModal"));
+const ServiceModal = lazy(() => import("../ui/ServiceModal"));
 import { useState } from "react";
 import {
   Palette,

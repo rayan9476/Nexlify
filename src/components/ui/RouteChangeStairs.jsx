@@ -1,4 +1,4 @@
-import useRouteChangeStairsAnimation from "../components/hooks/useRouteChangeStairsAnimation";
+import useRouteChangeStairsAnimation from "../hooks/useRouteChangeStairsAnimation";
 import { useEffect } from "react";
 
 function RouteChangeStairs({ children }) {
