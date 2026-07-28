@@ -12,7 +12,7 @@ export default function CustomCursor() {
     <>
       <div
         ref={dotRef}
-        className="fixed opacity-0 top-0 left-0 z-[9999] pointer-events-none"
+        className="fixed opacity-0 top-0 left-0 z-[999] pointer-events-none"
         style={{ transform: "translate(-50%, -50%)" }}
       >
         <div className="w-2 h-2 xl:w-3 xl:h-3  rounded-full bg-[#4CAF4F]" />
