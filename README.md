@@ -312,11 +312,11 @@ nexlify → clientagencyname
 
 Drop client logo PNG into `src/assets/` and update the import in:
 
-- `common/Navbar.jsx`
-- `common/Footer.jsx`
-- `common/PageLoader.jsx`
-- `PrivacyPolicy.jsx`
-- `TermsOfService.jsx`
+- `layout/Navbar.jsx`
+- `layout/Footer.jsx`
+- `loader/PageLoader.jsx`
+- `pages/PrivacyPolicy.jsx`
+- `pages/TermsOfService.jsx`
 
 **Step 4 — Replace brand color**
 
