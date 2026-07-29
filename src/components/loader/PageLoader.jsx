@@ -126,9 +126,9 @@ export default function PageLoader({ play, onComplete }) {
       ))}
 
       {/* Content — sits above panels */}
-      <div className="relative z-[10000] flex items-center justify-center flex-col text-center gap-8">
+      <div className="relative z-[10000] flex items-center justify-center flex-col  gap-3 2xl:gap-5 3xl:gap-6">
         {/* Logo */}
-        <img
+        {/* <img
           ref={logoRef}
           src={logo}
           alt="Boodmoard"
@@ -137,7 +137,18 @@ export default function PageLoader({ play, onComplete }) {
             transform: "translateY(80px)",
           }}
           className="h-10 lg:h-16 2xl:h-20  3xl:h-24 w-auto opacity-0 "
-        />
+        /> */}
+
+        <h1
+          ref={logoRef}
+          style={{
+            opacity: 0,
+            transform: "translateY(80px)",
+          }}
+          className="text-white   text-2xl  lg:text-3xl xl:text-4xl 2xl:text-5xl  3xl:text-6xl  tracking-[0.1em]  "
+        >
+          Nexlify
+        </h1>
 
         {/* Tagline */}
         <p
