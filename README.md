@@ -14,6 +14,7 @@ A modern, high-performance agency landing page built with React, Vite, Tailwind 
 
 > Located in `src/assets/projects/nexlify/`
 
+```
 src/assets/projects/nexlify/
 ├── HeroSection.png
 ├── ServicesSection.png
@@ -24,6 +25,7 @@ src/assets/projects/nexlify/
 ├── InstagramSectionMobile.png
 ├── CTASection.png
 └── ContactSection.png
+```
 
 ---
 
