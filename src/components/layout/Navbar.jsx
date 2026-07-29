@@ -25,19 +25,22 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const scrollTo = useScrollTo();
+  const [pendingScroll, setPendingScroll] = useState(null);
+
   useEffect(() => {
-    if (!isMenuOpen) return;
-    document.body.style.overflow = isMenuOpen ? "hidden" : "";
-    return () => {
-      document.body.style.overflow = "";
+    const lenis = window.__lenis;
+    if (!lenis) return;
+
+    lenis.options.prevent = (node) => {
+      return isMenuOpen && node.closest(".mobile-menu");
     };
   }, [isMenuOpen]);
 
-  const scrollTo = useScrollTo();
-
   const handleClick = (e, target) => {
     e.preventDefault();
-    scrollTo(target);
+    setPendingScroll(target);
+
     setIsMenuOpen(false); // close mobile menu if open
   };
 
@@ -68,7 +71,6 @@ export default function Navbar() {
                 key={link.label}
                 href={link.target}
                 onClick={(e) => handleClick(e, link.target)}
-                href={`#${link.label.toLowerCase()}`}
                 data-cursor="pointer"
                 className="text-zinc-400   cursor-pointer list-none hover:text-white text-sm xl:text-base 2xl:text-lg 3xl:text-2xl font-medium tracking-wide transition-colors duration-200 relative group"
               >
@@ -107,8 +109,23 @@ export default function Navbar() {
         </div>
       </header>
 
-      <AnimatePresence>
-        {isMenuOpen && <NavbarMenu navLinks={navLinks} />}
+      <AnimatePresence
+        onExitComplete={() => {
+          const lenis = window.__lenis;
+
+          if (lenis) {
+            lenis.start();
+          }
+
+          if (pendingScroll) {
+            scrollTo(pendingScroll);
+            setPendingScroll(null);
+          }
+        }}
+      >
+        {isMenuOpen && (
+          <NavbarMenu navLinks={navLinks} handleClick={handleClick} />
+        )}
       </AnimatePresence>
     </>
   );
