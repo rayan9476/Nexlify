@@ -44,6 +44,12 @@ export default function Navbar() {
     setIsMenuOpen(false); // close mobile menu if open
   };
 
+  const handleNavClick = (e, target) => {
+    e.preventDefault();
+
+    scrollTo(target);
+  };
+
   return (
     <>
       <header
@@ -70,7 +76,7 @@ export default function Navbar() {
               <li
                 key={link.label}
                 href={link.target}
-                onClick={(e) => handleClick(e, link.target)}
+                onClick={(e) => handleNavClick(e, link.target)}
                 data-cursor="pointer"
                 className="text-zinc-400   cursor-pointer list-none hover:text-white text-sm xl:text-base 2xl:text-lg 3xl:text-2xl font-medium tracking-wide transition-colors duration-200 relative group"
               >
@@ -84,7 +90,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-4">
             <button
               type="button"
-              onClick={(e) => handleClick(e, "#contact")}
+              onClick={(e) => handleNavClick(e, "#contact")}
               className="bg-[#4CAF4F] hover:bg-[#43A047] active:scale-75  hover:scale-95  text-white text-sm 2xl:text-base 3xl:text-2xl font-semibold px-6 py-2.5 rounded-sm 3xl:rounded-md transition-all duration-300  hover:shadow-[0_20px_100px_rgba(76,175,79,0.55)]
                transform-gpu
     will-change-transform

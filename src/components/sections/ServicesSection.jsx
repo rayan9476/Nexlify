@@ -186,7 +186,7 @@ export default function ServicesSection({ id }) {
                     transition={{ duration: 0.5, delay: i * 0.1 }}
                     whileHover={{ y: -6 }}
                     data-cursor="pointer"
-                    className="group relative rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-8 cursor-pointer overflow-hidden transition-all duration-300 hover:border-[#4CAF4F]/40"
+                    className="h-full group relative rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl p-8 cursor-pointer overflow-hidden transition-all duration-300 hover:border-[#4CAF4F]/40"
                   >
                     {/* Hover glow */}
                     <div className="absolute inset-0 bg-[#4CAF4F]/5 opacity-0 group-hover:opacity-100 transition duration-500 rounded-3xl" />

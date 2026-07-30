@@ -146,14 +146,14 @@ export default function InstagramSection({ id }) {
             className="rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-xl p-6 md:p-10 shadow-[0_25px_80px_rgba(0,0,0,.45)]"
           >
             <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
-              <div className="flex flex-col sm:flex-row items-center gap-6">
+              <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
                 <img
                   src={profile.avatar}
                   alt=""
                   className="w-28 h-28 md:w-36 md:h-36  rounded-full object-cover border-4 border-[#4CAF4F]"
                 />
-                <div className="text-center sm:text-left">
-                  <div className="flex items-center justify-center sm:justify-start gap-2">
+                <div className="text-center lg:text-left">
+                  <div className="flex items-center justify-center lg:justify-start gap-2">
                     <FaInstagram className="text-pink-500 " size={22} />
                     <span className="text-white text-xl 3xl:text-2xl font-semibold">
                       {profile.username}
@@ -165,7 +165,7 @@ export default function InstagramSection({ id }) {
                   <motion.button
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.97 }}
-                    className="mt-6 cursor-pointer bg-[#4CAF4F] hover:bg-[#43A047] transition-all duration-200 ease-in text-white font-semibold 3xl:text-xl px-7 py-3 rounded-full flex items-center gap-2 hover:gap-3 mx-auto sm:mx-0  transform-gpu
+                    className="mt-6 cursor-pointer bg-[#4CAF4F] hover:bg-[#43A047] transition-all duration-200 ease-in text-white font-semibold 3xl:text-xl px-7 py-3 rounded-full flex items-center gap-2 hover:gap-3 mx-auto lg:mx-0  transform-gpu
     will-change-transform"
                   >
                     View Profile <FaArrowRight size={20} />

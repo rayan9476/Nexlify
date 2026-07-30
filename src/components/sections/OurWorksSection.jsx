@@ -79,7 +79,7 @@ export default function OurWorksSection({ id }) {
       <LayoutGroup>
         <section
           id={id}
-          className="bg-black pt-24 lg:py-24 px-[var(--section-padding-x)] lg:px-[var(--section-padding-lg)] xl:px-[var(--section-padding-xl)]"
+          className="bg-black py-24 px-[var(--section-padding-x)] lg:px-[var(--section-padding-lg)] xl:px-[var(--section-padding-xl)]"
         >
           <div className="max-w-7xl  2mxl:max-w-full mx-auto">
             <motion.div
