@@ -557,8 +557,6 @@ Designed as a sellable template — deliver to any client by swapping brand name
 
 > Located in `src/assets/projects/nexlify/`
 
----
-
 src/assets/projects/nexlify/
 ├── HeroSection.png
 ├── ServicesSection.png
