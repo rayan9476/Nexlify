@@ -1040,7 +1040,7 @@ This project is a commercial template for selling web development services. You 
 
 ---
 
-## Author
+## 👤 Author
 
 Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
