@@ -529,9 +529,6 @@ Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
 > Built with React + Vite + Tailwind CSS + Framer Motion + GSAP + Lenis -->
 
-
-
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Nexlify&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Creative%20Digital%20Agency%20Landing%20Page&descAlignY=58&descAlign=50" width="100%"/>
@@ -560,6 +557,8 @@ Designed as a sellable template — deliver to any client by swapping brand name
 
 > Located in `src/assets/projects/nexlify/`
 
+---
+
 src/assets/projects/nexlify/
 ├── HeroSection.png
 ├── ServicesSection.png
@@ -571,6 +570,7 @@ src/assets/projects/nexlify/
 ├── CTASection.png
 └── ContactSection.png
 
+---
 
 ---
 
@@ -672,7 +672,6 @@ nexlify-landing/
 ├── vite.config.js
 ├── vercel.json
 └── README.md
-
 
 ---
 
@@ -1075,6 +1074,6 @@ Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
-*Built with React + Vite + Tailwind CSS + Framer Motion + GSAP + Lenis*
+_Built with React + Vite + Tailwind CSS + Framer Motion + GSAP + Lenis_
 
 </div>
