@@ -531,7 +531,7 @@ Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=160&section=header&text=Nexlify&fontSize=72&fontColor=fff&animation=twinkling&fontAlignY=38&desc=Creative%20Digital%20Agency%20Landing%20Page&descAlignY=58&descAlign=50" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Nexlify&fontSize=56&fontColor=fff&animation=twinkling&fontAlignY=33&desc=Creative%20Digital%20Agency%20Landing%20Page&descAlignY=55&descAlign=50" width="100%"/>
 
 # Nexlify — Creative Digital Agency Landing Page
 
