@@ -1044,7 +1044,7 @@ This project is a commercial template for selling web development services. You 
 
 Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
-- Fiverr: [fiverr.com/yourusername](https://fiverr.com/yourusername)
+- Fiverr: [fiverr.com/yourusername](https://fiverr.com/hellorayyan)
 - GitHub: [github.com/rayan9476](https://github.com/rayan9476)
 - Email: rayyankhasmire@gmail.com
 
@@ -1075,7 +1075,7 @@ Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 **Rayyan** — Full Stack Developer based in Karachi, Pakistan
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0A0A0A?style=flat-square&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/rayyan-khan-585655322)
 [![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://fiverr.com/hellorayyan)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:hellorayyan.dev@gmail.com)
 
