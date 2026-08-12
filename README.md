@@ -1044,7 +1044,7 @@ This project is a commercial template for selling web development services. You 
 
 Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
-- Fiverr: [fiverr.com/yourusername](https://fiverr.com/hellorayyan)
+- Fiverr: [fiverr.com/hellorayyan](https://fiverr.com/hellorayyan)
 - GitHub: [github.com/rayan9476](https://github.com/rayan9476)
 - Email: rayyankhasmire@gmail.com
 
