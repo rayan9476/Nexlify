@@ -1070,6 +1070,17 @@ Built by **Rayyan** — Full Stack Developer based in Karachi, Pakistan.
 
 ---
 
+## 👤 Author
+
+**Rayyan** — Full Stack Developer based in Karachi, Pakistan
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0A0A0A?style=flat-square&logo=vercel&logoColor=white)](https://your-portfolio.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
+[![Fiverr](https://img.shields.io/badge/Fiverr-1DBF73?style=flat-square&logo=fiverr&logoColor=white)](https://fiverr.com/yourusername)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:hellorayyan.dev@gmail.com)
+
+---
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
