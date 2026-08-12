@@ -557,6 +557,7 @@ Designed as a sellable template — deliver to any client by swapping brand name
 
 > Located in `src/assets/projects/nexlify/`
 
+```
 src/assets/projects/nexlify/
 ├── HeroSection.png
 ├── ServicesSection.png
@@ -567,8 +568,7 @@ src/assets/projects/nexlify/
 ├── InstagramSectionMobile.png
 ├── CTASection.png
 └── ContactSection.png
-
----
+```
 
 ---
 
@@ -590,6 +590,7 @@ src/assets/projects/nexlify/
 
 ## Project Structure
 
+```
 nexlify-landing/
 ├── public/
 │ ├── favicon.ico
@@ -670,6 +671,7 @@ nexlify-landing/
 ├── vite.config.js
 ├── vercel.json
 └── README.md
+```
 
 ---
 
